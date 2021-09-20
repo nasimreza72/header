@@ -1,11 +1,12 @@
 *{
     margin: 0%;
     scroll-behavior: smooth;
-    font-family: 'PT Serif', serif;
+    font-family: 'Gluten', cursive;
 }
 
+
 header{
-    background:linear-gradient(rgba(0, 0, 0, 0.829), rgba(155, 182, 211, 0.631)), url(./hello-lightbulb-YC8qqp50BdA-unsplash.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.29), rgba(231, 231, 231, 0.4631)), url(./hello-lightbulb-YC8qqp50BdA-unsplash.jpg);
     width: auto;
     height: 100vh;
     background-position: 30% 53%;
@@ -46,13 +47,12 @@ nav{
 }
 .left-nav{
     position: absolute;
-    font-size: 2rem;
-    font-family: 'PT Serif', serif;
+    font-size: 2.4rem;
+    font-family: 'Dancing Script', cursive;
     top: 3vh;
     left: 3vh;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px rgba(167, 86, 19, 0.863);
-    opacity: 0.8;
+    text-shadow: 2px .3px 0px rgb(107, 107, 107), 9px 8px 0px rgba(46, 46, 46, 0.15);
 }
 
 .center-nav ul{
@@ -67,17 +67,18 @@ a{
     color: rgb(248, 244, 244);
     font-weight: bold;
     font-size: 1.2em;
-    text-shadow: 1px 1px rgba(167, 86, 19, 0.863);
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.863);
     
 }
 
 .border{
-    width: 40vw;
-    border: 1px solid rgba(255, 255, 255, 0.616);
+    width: 70%;
+    border: .5px solid rgba(255, 255, 255, 0.616);
+    background-color: white;
     position: absolute;
-    top:25%;
-    left: 30vw;
-    box-shadow: -10px 10px 6px rgba(3, 3, 3, 0.26);
+    bottom: -50%;
+    left: 16%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     
 }  
 
@@ -93,7 +94,7 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     align-items: center;
-    box-shadow: -8px 15px 15px rgba(0, 0, 0, 0.432);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .booking-text{
     color: rgb(255, 255, 255);
@@ -110,7 +111,7 @@ a{
     display: block;
     color: white;
     background-color:rgba(255, 255, 255, 0.397);
-    width: 89px;
+    width: 77px;
     height: 4px;
     transition: width 2s;
     
@@ -119,23 +120,20 @@ a{
 .last:hover~.line2{
     display: block;
     color: white;
-    background-image: linear-gradient(90deg,white, blue,white, blue);
-    width: 100px;
+    background-image: linear-gradient(90deg,white, rgba(21, 123, 207, 0.582),white,rgba(57, 91, 204, 0.692));
+    width: 70%;
     height: 2px;
     transition: width 2s;
 
 }
 
 .left-nav:hover{
-    color: rgb(11, 242, 219);
-    opacity: .5;
+    color: rgb(0, 0, 0);
     transition:1s;
-    font-size: 35px;
 }
 ul a:hover{
-    color: rgb(85, 189, 213);
+    color: rgb(0, 0, 0);
     transition: 1s;
-    font-size: large;
 }
 
 .last2{
@@ -154,7 +152,6 @@ transition: width 2s;
     position:absolute;
     width: 0px;
     height: 2px;
-    top:100%;
     right:0%;
     transition: width 2s;
     }
@@ -167,6 +164,13 @@ a:visited{
 ul a:active{
     color: red;
     font-size: 1.3rem;
+}
+
+input{
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    outline: none;
 }
 
 
